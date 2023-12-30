@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia&family=Poppins:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+      integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">
+        Avoca
+        <div class="logo-container"></div>
+        o
+      </h1>
+      <nav>
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-container">
+          <a class="options" href="#home" id="option-1"
+            ><i class="fa-solid fa-house"></i>
+            <label class="hidden">Home</label>
+          </a>
+          <a class="options" href="#services" id="option-3"
+            ><i class="ri-service-fill"></i>
+            <label class="hidden">Courses</label>
+          </a>
+          <a class="options" href="#about " id="option-2"
+            ><i class="fa-solid fa-circle-question"></i>
+            <label class="hidden">About</label>
+          </a>
+          <a class="options" href="#contact" id="option-4">
+            <i class="fa-solid fa-user"></i>
+            <label class="hidden">Contact</label>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="coding-image"></div>
+
+      <div class="landing-view">
+        <div class="subscribe-section">
+          <div class="welcome-section">
+            <h1>Subscribe Now</h1>
+            <h1>to Avocado</h1>
+
+            <p class="thego">Unlock the World of Programming Excellence</p>
+            <p class="explore">
+              Explore what we offer
+              <a href="#services">
+                <i class="fa-solid fa-arrow-right explore-arrow"></i
+              ></a>
+            </p>
+
+            <div class="signup">
+              <input type="text" class="name" placeholder="Name" />
+              <input type="email" class="email" placeholder="Email" />
+              <button class="subscribe-btn">
+                Subscribe<i class="fa-solid fa-caret-right"></i>
+              </button>
+            </div>
+            <div class="encouragement-para">
+              <div class="languages">
+                <div class="language-icon" id="python-icon">
+                  <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="language-icon" id="js-icon">
+                  <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="language-icon" id="java-icon">
+                  <i class="fa-brands fa-java"></i>
+                </div>
+                <div class="language-icon" id="cpp-icon">
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>C++</title>
+                    <path
+                      d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta">
+        <p>Join us and start your coding journey today.</p>
+        <button class="join-btn">Join us</button>
+      </div>
+    </section>
+
+    <section id="services">
+      <h1>Our Courses</h1>
+
+      <div class="courses-container">
+        <div class="course">
+          <h2>Web Development</h2>
+          <ul>
+            <li>Comprehensive Full-Stack Coverage</li>
+            <li>Real-World Projects</li>
+            <li>Responsive Design and UX/UI</li>
+            <li>Framework Proficiency</li>
+            <li>Database Integration</li>
+            <li>Deployment and Hosting</li>
+          </ul>
+        </div>
+        <div class="course">
+          <h2>Software Development</h2>
+          <ul>
+            <li>Programming Language Proficiency</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>Version Control Systems</li>
+            <li>Software Architecture and Design Patterns</li>
+            <li>Testing and Debugging</li>
+            <li>Agile Development Practices</li>
+          </ul>
+        </div>
+        <div class="course">
+          <h2>Cloud Computing</h2>
+          <ul>
+            <li>Cloud Service Familiarity</li>
+            <li>Infrastructure as Code (IaC)</li>
+            <li>Scalability and Performance Optimization</li>
+            <li>Security Best Practices</li>
+            <li>Serverless Architecture</li>
+          </ul>
+        </div>
+        <div class="course">
+          <h2>ML and Data Science</h2>
+          <ul>
+            <li>Fundamentals of Machine Learning</li>
+            <li>Data Preprocessing and Cleaning</li>
+            <li>Feature Engineering</li>
+            <li>Model Evaluation and Deployment</li>
+            <li>Deep Learning Concepts</li>
+            <li>Data Visualization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>About Us</h1>
+
+      <div class="empower">
+        <h3>Empowering You through Code</h3>
+        <p>
+          Welcome to Avocado, where coding dreams become reality! Our mission is
+          simple: empower learners of all levels with transformative programming
+          education.
+        </p>
+      </div>
+
+      <div class="why-choose-us">
+        <h1>Why Choose Us?</h1>
+        <ul>
+          <li>
+            <h3>Expert Instructors:</h3>
+            <p>Learn from industry professionals with hands-on experience.</p>
+          </li>
+          <li>
+            <h3>Comprehensive Curriculum:</h3>
+            <p>From basics to advanced frameworks, we've got it all covered.</p>
+          </li>
+          <li>
+            <h3>Hands-On Learning:</h3>
+            <p>Gain practical experience through real-world projects.</p>
+          </li>
+          <li>
+            <h3>Community Collaboration:</h3>
+            <p>Join a supportive community of learners and mentors.</p>
+          </li>
+          <li>
+            <h3>Flexible Learning Paths:</h3>
+            <p>
+              Tailor your learning journey to match your pace and preferences.
+              Whether you're a weekend coder or a full-time learner, we've got
+              you covered.
+            </p>
+          </li>
+          <li>
+            <h3>Cutting-Edge Content:</h3>
+            <p>
+              Stay ahead of the curve with courses that are regularly updated to
+              reflect the latest industry trends and technologies.
+            </p>
+          </li>
+          <li>
+            <h3>Certification for Career Growth:</h3>
+            <p>
+              Earn certificates upon course completion to enhance your resume
+              and showcase your skills to potential employers.
+            </p>
+          </li>
+          <li>
+            <h3>Responsive Support Team:</h3>
+            <p>
+              Have questions? Our dedicated support team is available around the
+              clock to assist you on your learning path.
+            </p>
+          </li>
+          <li>
+            <h3>Lifetime Access:</h3>
+            <p>
+              Enjoy lifetime access to course materials, allowing you to revisit
+              and reinforce your knowledge at any time.
+            </p>
+          </li>
+          <li>
+            <h3>Affordable and Transparent Pricing:</h3>
+            <p>
+              Access quality education without breaking the bank. Our pricing is
+              transparent, with no hidden fees.
+            </p>
+          </li>
+        </ul>
+        <div class="start-journey">
+          <h3>Start Your Coding Journey Today!</h3>
+          <p>
+            Join Avocado and embark on a journey of growth, innovation, and
+            endless possibilities through the power of code. Whether you're
+            looking to land your dream job, start a new project, or simply
+            explore the world of programming, we're here to guide you every step
+            of the way.
+          </p>
+          <p>Ready to code? Let's get started!</p>
+          <div class="explore-courses">
+            Explore Courses
+            <a href="#services">
+              <i class="fa-solid fa-arrow-right explore-arrow"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Get in touch with us!</h1>
+      <!--  -->
+
+      <p>
+        Have a question, need assistance, or just want to say hello? We're here
+        for you! Feel free to reach out through any of the following channels:
+      </p>
+
+      <div class="contact-support">
+        <div class="email-support">
+          <h3><i class="fa-solid fa-envelope"></i> Email Support</h3>
+          <p>
+            For general inquiries and support, drop us an email at
+            <a
+              style="
+                cursor: pointer;
+                text-decoration: underline;
+                color: rgba(255, 255, 255, 0.5);
+              "
+              >support@avocado.com</a
+            >. Our dedicated support team will get back to you as soon as
+            possible.
+          </p>
+        </div>
+
+        <div class="phone-support">
+          <h3><i class="fa-solid fa-phone"></i> Phone Support</h3>
+          <p>
+            Prefer a chat? Give us a call at
+            <a
+              style="
+                color: rgba(255, 255, 255, 0.5);
+                /* color: royalblue; */
+                text-decoration: underline;
+              "
+              >9800123498</a
+            >. Our support hours are 9:00 - 18:00 , and we're ready to assist
+            you with any questions you may have.
+          </p>
+        </div>
+
+        <div class="live-chat">
+          <h3><i class="fa-solid fa-comment"></i> Live Chat</h3>
+          <p>
+            Need immediate help? Our live chat is available during business
+            hours. Click the chat bubble in the bottom left corner to connect
+            with a support representative.
+          </p>
+        </div>
+
+        <div class="visit-us">
+          <h3><i class="fa-solid fa-location-dot"></i> Visit Us</h3>
+          <p>
+            If you're in the neighborhood, stop by our office at New Road, New
+            Country. We'd love to meet you in person!
+          </p>
+        </div>
+
+        <div class="social-media">
+          <h3><i class="fa-solid fa-globe"></i> Social Media</h3>
+
+          <p>
+            Connect with us on social media for updates, announcements, and
+            community discussions:
+          </p>
+          <ul class="social-media-links">
+            <a><i class="fa-brands fa-facebook-f"></i></a>
+            <a><i class="fa-brands fa-x-twitter"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+          </ul>
+        </div>
+
+        <div>
+          <h3><i class="fa-solid fa-users"></i> Join Our Community</h3>
+          <p>
+            Become a part of our growing community!
+            <a style="cursor: pointer; color: royalblue">Join</a> our forums,
+            participate in discussions, and collaborate with fellow learners.
+          </p>
+        </div>
+      </div>
+
+      <!--  -->
+    </section>
+
+    <div class="live-chat-option">
+      <i class="fa-regular fa-comment"></i>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
